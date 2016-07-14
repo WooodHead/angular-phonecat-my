@@ -1,0 +1,12 @@
+doctype html
+html(ng-app="phonecatApp")
+  head
+    link(rel="stylesheet",href='lib/css/bootstrap.css')
+    link(rel="stylesheet",href='css/app.css')
+    script(src='lib/js/angular.js')
+    script(src='angular/app.module.js')
+    script(src='angular/phone-list/phone-list.module.js')
+    script(src='angular/phone-list/phone-list.component.js')
+    
+  body
+    phone-list
