@@ -4,9 +4,10 @@ html(ng-app="phonecatApp")
     link(rel="stylesheet",href='lib/css/bootstrap.css')
     link(rel="stylesheet",href='css/app.css')
     script(src='lib/js/angular.js')
+    script(src='lib/js/angular-route.js')
     script(src='angular/app.module.js')
     script(src='angular/phone-list/phone-list.module.js')
     script(src='angular/phone-list/phone-list.component.js')
     
   body
-    phone-list
+    div(ng-view)
